@@ -37,8 +37,8 @@ This framework is designed EXCLUSIVELY for:
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/redops/dripcorn-v2
-cd dripcorn-v2
+git clone https://github.com/petangZi/dripcorn.git
+cd dripcorn
 
 # Install dependencies
 npm run setup

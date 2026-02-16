@@ -1,0 +1,41 @@
+{
+  "name": "@dripcorn/framework",
+  "version": "2.0.0",
+  "description": "🦄 DripCorn V2 - Professional Security Testing Framework | Python-Node.js Fusion | 30+ Attack Vectors",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "dripcorn": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "setup": "npm install && pip install -r requirements.txt --break-system-packages",
+    "attack": "node index.js --attack",
+    "monitor": "node index.js --monitor"
+  },
+  "keywords": ["pentesting", "security", "stress-testing", "red-team"],
+  "author": "RedOps Lab",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "python": ">=3.9.0"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "chalk": "^5.3.0",
+    "ora": "^7.0.1",
+    "cli-table3": "^0.6.3",
+    "figlet": "^1.7.0",
+    "boxen": "^7.1.1",
+    "gradient-string": "^2.0.2",
+    "qrcode-terminal": "^0.12.0",
+    "speakeasy": "^2.0.0",
+    "axios": "^1.6.2",
+    "http-proxy-agent": "^7.0.0",
+    "socks-proxy-agent": "^8.0.2",
+    "ws": "^8.16.0",
+    "nanoid": "^5.0.4",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1"
+  }
+}
